@@ -1,0 +1,33 @@
+* {margin: 0; padding: 0;}
+
+a {text-decoration: none;}
+
+.clearfix { overflow: auto }
+
+body{
+	background-image: url(../img/background.png);
+}
+
+.next-match-info{
+@import url(//fonts.googleapis.com/earlyaccess/notosanssinhala.css);
+font-family: 'Noto Sans Sinhala', sans-serif;
+	color: #0500cf;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.next-match-team{
+@import url(//fonts.googleapis.com/earlyaccess/notosanssinhala.css);
+font-family: 'Noto Sans Sinhala', sans-serif;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.next-match-team ul{
+	color: #000;
+	font-size: 20px;
+}
+
+.next-match-team ul li{
+	margin-top: 5px;
+}

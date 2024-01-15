@@ -1,0 +1,185 @@
+* {margin: 0; padding: 0;}
+
+a {text-decoration: none;}
+
+.clearfix { overflow: auto }
+
+body{
+	background-image: url(../img/background.png);
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.top-bar{
+	width: 1000px;
+	background: #0500cf;
+	background: linear-gradient(#0500cf,#0500cf,#0500cf,#0500cf,#0500cf,#ffc600,#0500cf,#0500cf);
+}
+
+.top-bar-links {
+	float: left;
+}
+
+.top-bar-links ul li:hover{
+	background: orange;
+}
+
+.top-bar-links ul{
+	margin: 15px;
+	list-style: none;
+}
+
+.top-bar-links ul li{
+	padding: 0px 5px;
+	display: inline-block;
+	border-right: 3px solid white;
+}
+
+.top-bar-links ul li:last-child {
+	border: 0;
+}
+
+.top-bar-links ul li a{
+	color: white;
+}
+
+.site-search {
+	padding: 0 10px;
+	margin: 15px;
+	float: right;
+	background: white;
+	border-radius: 10px;
+}
+
+.site-search input{
+	float: left;
+	border: 0;
+}
+
+.site-search button{
+	float: right;
+	width: 18px;
+	height: 18px;
+	background: url(../img/search.png);
+	border: 0;
+}
+
+header .age{
+	float: left;
+}
+
+header .age h1{
+	font-size: 100px;
+	margin-left: 100px;
+	background: linear-gradient(#0500cf,#0500cf,#0500cf,#0500cf,#ffc600,#0500cf,#0500cf,#0500cf,#0500cf);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+header .age p {
+@import url(//fonts.googleapis.com/earlyaccess/notosanssinhala.css);
+font-family: 'Noto Sans Sinhala', sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	background: linear-gradient(#0500cf,#0500cf,#0500cf,#0500cf,#ffc600,#0500cf,#0500cf,#0500cf,#0500cf);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+header .social-media:hover {
+	background: orange;
+}
+
+header .social-media{
+	float: right;
+	text-align: center;
+	margin-right: 20px;	
+}
+
+header .social-media a img{
+	width: 80px;
+	height: 80px;
+	margin-top: 30px;
+}
+
+header .social-media p a{
+	margin-top: 10px;
+	font-size: 40px;
+	color: #0500cf;
+}
+
+nav{
+@import url(//fonts.googleapis.com/earlyaccess/notosanssinhala.css);
+font-family: 'Noto Sans Sinhala', sans-serif;
+	background: linear-gradient(#0500cf,#0500cf,#0500cf,#0500cf,#0500cf,#ffc600,#0500cf,#0500cf);
+	margin-top: 20px;
+	text-align: center;	
+	border-radius: 8px;
+}
+
+nav ul li:hover{
+	background: orange;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline;
+	font-size: 20px;
+	font-weight: bold;
+	border-right: 3px solid white;
+}
+
+nav ul li:last-child {
+	border: 0;
+}
+
+nav ul li a{
+	color: white;
+	margin:10px 25px 10px 25px;
+	display: inline-block;
+}
+
+.old-matches-dates{
+@import url(//fonts.googleapis.com/earlyaccess/notosanssinhala.css);
+font-family: 'Noto Sans Sinhala', sans-serif;
+	font-size: 20px;
+	margin: 50px;
+	color: #0500cf;
+}
+
+.old-matches-dates ul li a:hover{
+	background: orange;
+}
+
+.old-matches-dates ul li a{
+color: #0500cf;
+}
+
+.bottom{
+	width: 1000px;
+	height: 100px;
+	background: linear-gradient(#0500cf,#0500cf,#0500cf,#0500cf,#0500cf,#ffc600,#0500cf,#0500cf);
+}
+
+.bottom img{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 40px;
+	height:80px;
+	float: left;
+}
+
+.bottom a:hover{
+	background: orange;
+}
+
+.bottom a{
+	margin-top: 40px;
+	margin-left: 10px;
+	font-size: 20px;
+	color: #fff;
+	float: left;
+}

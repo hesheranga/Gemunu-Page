@@ -1,0 +1,128 @@
+* {margin: 0; padding: 0;}
+
+a {text-decoration: none;}
+
+.clearfix { overflow: auto }
+
+body{
+	background-image: url(../img/background.png);
+}
+
+.last-match-info{
+@import url(//fonts.googleapis.com/earlyaccess/notosanssinhala.css);
+font-family: 'Noto Sans Sinhala', sans-serif;
+	color: #0500cf;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.last-match-col{
+	margin-left: 10px;
+	margin-top: 40px;
+	width: 320px;
+	height: 200px;
+	float: left;
+}
+
+.last-match-col ul{
+	color: #000;
+	font-size: 20px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+.last-match-col ul li{
+	margin-top: 5px;
+}
+
+.last-match-final{
+@import url(//fonts.googleapis.com/earlyaccess/notosanssinhala.css);
+font-family: 'Noto Sans Sinhala', sans-serif;
+	text-align: center;	
+	margin-top: 40px;
+}
+
+.last-match-final h1{
+	color: #0500cf;
+}
+
+.last-match-final ul{
+	list-style: none;
+	color: #000;
+	font-size: 30px;
+	margin-top: 20px;
+}
+
+.last-match-final ul li{
+	margin-top: 5px;
+}
+
+.photo{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.photo-team img{
+	display: block;
+	margin: auto;
+	width: 50%;
+}
+.bater img{
+	display: block;
+	margin: auto;
+	width: 50%;
+}
+
+.bater h1{
+@import url(//fonts.googleapis.com/earlyaccess/notosanssinhala.css);
+font-family: 'Noto Sans Sinhala', sans-serif;
+	margin-top: 5px;
+	margin-bottom: 30px;
+	text-align: center;
+	color: #0500cf;
+}
+
+.catcher img{
+	display: block;
+	margin: auto;
+	width: 50%;
+}
+
+.catcher h1{
+@import url(//fonts.googleapis.com/earlyaccess/notosanssinhala.css);
+font-family: 'Noto Sans Sinhala', sans-serif;
+	margin-top: 5px;
+	margin-bottom: 30px;
+	text-align: center;
+	color: #0500cf;
+}
+.runner img{
+	display: block;
+	margin: auto;
+	width: 50%;
+}
+
+.runner h1{
+@import url(//fonts.googleapis.com/earlyaccess/notosanssinhala.css);
+font-family: 'Noto Sans Sinhala', sans-serif;
+	margin-top: 5px;
+	margin-bottom: 30px;
+	text-align: center;
+	color: #0500cf;
+}
+
+.man img{
+	display: block;
+	margin: auto;
+	width: 50%;
+}
+
+.man h1{
+@import url(//fonts.googleapis.com/earlyaccess/notosanssinhala.css);
+font-family: 'Noto Sans Sinhala', sans-serif;
+	margin-top: 5px;
+	margin-bottom: 30px;
+	text-align: center;
+	color: #0500cf;
+}
